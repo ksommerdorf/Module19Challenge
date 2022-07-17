@@ -26,8 +26,4 @@ Compiling, Training, and Evaluating the Model
   * In the last attempt, the activation function of the hidden layers from the second attempt model was changed. The model utilized Tanh activation instead of ReLU in the hidden layers and yielded a 42.8% accuracy rate. 
   
 ## Summary 
-
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation. 
-
-Overall the result of the deep learning model were unsuccessful at producing over a 75% accuracy rate. The model after optimization ended with an accuracy rate of 42.8% compared to initial model with 70.0%. The changes demonstrated include reducing columns, decreasing classification value counts, adding hidden layers, adding neurons, and changing the activation function used. The decrease in accuracy with these changes means the model might be overfitted.  
- 
+Overall the result of the deep learning model were unsuccessful at producing over a 75% accuracy rate. The model after optimization ended with an accuracy rate of 42.8% compared to initial model with 70.0%. The changes demonstrated include reducing columns, decreasing classification value counts, adding hidden layers, adding neurons, and changing the activation function used. The decrease in accuracy with these changes means the model might be overfitted. To prevent overfitting, I would recommend using Random Forest classifiers. Random Forest classifiers are robust against overfitting and runs efficiently on large datasets with better accuracy.
